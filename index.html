@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate 20-Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+</head>
+
+<body>
+
+    <h1 class="title">✨ Ultimate Creative Gallery (20 Images) ✨</h1>
+
+    <!-- Search Bar -->
+    <input type="text" id="searchBox" placeholder="Search images..." onkeyup="searchImages()">
+
+    <!-- Filter Buttons -->
+    <div class="filter-buttons">
+        <button onclick="filterImages('all')" class="active">All</button>
+        <button onclick="filterImages('nature')">Nature</button>
+        <button onclick="filterImages('cars')">Cars</button>
+        <button onclick="filterImages('animals')">Animals</button>
+        <button onclick="filterImages('tech')">Technology</button>
+        <button onclick="filterImages('food')">Food</button>
+    </div>
+
+    <!-- Gallery -->
+    <div id="gallery" class="gallery"></div>
+
+    <!-- Pagination -->
+    <div id="pagination" class="pagination"></div>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span onclick="closeLightbox()" class="close-btn">✖</span>
+        <img id="lightbox-img">
+        <p id="lightbox-title"></p>
+    </div>
+
+    <script src="script.js"></script>
+
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #1a1a1a, #111);
+    color: white;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.title {
+    margin-top: 25px;
+    font-size: 2.5rem;
+    text-shadow: 0px 0px 10px #8a00ff;
+}
+
+/* Search Bar */
+#searchBox {
+    width: 60%;
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    outline: none;
+}
+
+/* Filter Buttons */
+.filter-buttons button {
+    margin: 10px 5px;
+    padding: 10px 18px;
+    background: #222;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.filter-buttons button.active,
+.filter-buttons button:hover {
+    background: #9a00ff;
+    box-shadow: 0 0 10px #cc00ff;
+}
+
+/* Gallery Grid */
+.gallery {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 10px;
+    border-radius: 15px;
+    transition: 0.35s;
+    backdrop-filter: blur(10px);
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.03);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card-title {
+    margin-top: 10px;
+    font-size: 1rem;
+    opacity: 0.85;
+}
+
+/* Pagination */
+.pagination button {
+    margin: 8px;
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background: #222;
+    color: white;
+    transition: 0.3s;
+}
+
+.pagination button.active {
+    background: #bb00ff;
+    box-shadow: 0 0 10px #cc00ff;
+}
+
+/* Lightbox */
+.lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lightbox img {
+    width: 60%;
+    border-radius: 15px;
+}
+
+.lightbox p {
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 2rem;
+    cursor: pointer;
+}
