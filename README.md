@@ -1,60 +1,44 @@
-# 🌟 CodeAlpha - Premium Image Gallery (Task 1)
+# 🖼️ CodeAlpha Task 1 — Responsive Image Gallery  
+Created by **Ayush Saxena**
 
-This project is created as part of the **CodeAlpha Frontend Development Internship**.  
-It is a **modern, fully responsive 20-image gallery** with categories, search, pagination, and lightbox preview.
+This is my Task 1 project for the **CodeAlpha Frontend Development Internship** — a beautiful and fully responsive **Image Gallery Website** built using HTML, CSS, and JavaScript.
 
 ---
 
 ## ✨ Features
 
-### ✅ **20 High-Quality Images**
-- 4 Nature photos  
-- 4 Cars  
-- 4 Animals  
-- 4 Technology  
-- 4 Food  
+### 🔹 Modern UI + Clean Light Theme  
+- 20+ high-quality images  
+- Smooth hover zoom animations  
+- Uniform grid layout  
+- Minimal, responsive design  
+- Works on desktop, tablet, and mobile
 
-### ✅ **Search Function**
-Type and instantly filter images by title.
-
-### ✅ **Category Filters**
-One-click filters:
-- Nature  
-- Cars  
-- Animals  
-- Technology  
-- Food  
-- All  
-
-### ✅ **Pagination**
-Images are divided into pages for faster loading.
-
-### ✅ **Lightbox View**
-Click an image to view:
-- Fullscreen mode  
-- Title / Description  
-- Dark overlay  
-
-### ✅ **Scroll Animations (AOS Library)**
-Smooth animations for every image card.
-
-### ✅ **Fully Responsive**
-Works perfectly on:
-- Desktop  
-- Tablet  
-- Mobile devices  
+### 🔹 Fast & Optimized  
+- Compressed images  
+- Lightweight code  
+- Instant loading
 
 ---
 
 ## 🛠️ Technologies Used
 
 - **HTML5**  
-- **CSS3** (Glass UI + Modern gradients)  
-- **JavaScript (ES6)**  
-- **AOS Library (Animate on Scroll)**  
+- **CSS3 (Grid, Flex, Hover Effects)**  
+- **JavaScript (optional)**
 
 ---
 
-## 📂 Folder Structure
+## 🔗 Live Demo  
+👉 **https://ayush2809-tech.github.io/CodeAlpha_ImageGallery/**
 
+---
 
+## 📁 Folder Structure
+
+CodeAlpha_ImageGallery/
+│── index.html
+│── style.css
+│── script.js
+└── images/
+└── (20+ images)
